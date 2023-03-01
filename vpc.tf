@@ -17,8 +17,8 @@ resource "google_compute_subnetwork" "public" {
 
 #private subnet
 #https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_subnetwork 
-resource "google_compute_subnetwork" "private" {
-  name = "private"
+resource "google_compute_subnetwork" "private1" {
+  name = "private1"
   ip_cidr_range = "10.0.1.0/24"
   region = "us-west2"
   network = google_compute_network.main.id
@@ -27,8 +27,8 @@ resource "google_compute_subnetwork" "private" {
 #private subnet
 #https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_subnetwork 
 
-resource "google_compute_subnetwork" "private" {
-  name = "private"
+resource "google_compute_subnetwork" "private2" {
+  name = "private2"
   ip_cidr_range = "10.0.2.0/24"
   region = "us-west2"
   network = google_compute_network.main.id
@@ -55,7 +55,7 @@ resource "google_compute_router_nat" "nat" {
   nat_ip_allocate_option = "AUTO_ONLY"
   source_subnetwork_ip_ranges_to_nat = "LIST_OF_SUBNETWORKS"
   subnetwork {
-    name = "private"
+    name = "private1"
      source_ip_ranges_to_nat = ["ALL_IP_RANGES"]
   }
 }
