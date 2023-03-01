@@ -37,7 +37,7 @@ resource "google_compute_subnetwork" "private" {
 #cloud router
 #https://registry.terraform.io/providers/hashicorp/google/latest/docs/data-sources/compute_router 
 
-resource "google_network_router" {
+resource "google_network_router" "router" {
   name = "router"
   network = google_compute_network.main.id
   bgp {
