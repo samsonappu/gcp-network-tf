@@ -7,3 +7,13 @@ provider "google" {
 variable "gcp_creds" {
 default= ""
 }
+
+terraform {
+  cloud {
+    organization = "hackerhut"
+
+    workspaces {
+      name = "gcp-network-tf"
+    }
+  }
+}
