@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "argocd-deployment",
+  "private_key_id": "473a22f30ed3f67c695c6f1c90eed131f6047779",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCsQu4uUSNbMn2Q\ndel7lNRi0FjaPpjuMHjSqZESYTs/6Uap8T7YXOuGUi6AW/QRSFAm8Kb73Wwd/ey8\n0AtX4x/cQSb1nap+PFczm8G7pcVZUFM2pfv37L7tBtcA2PcVkkKzZMDQkrxzUiQ6\nF+WKTT3/8p7vZ+fpYHInu0NLlSDvmOaGMNMzmXhsMh6UdJMtEA7O3Ji/V4bqB19z\nbIxoU9qACiuj+YPoATJsF8ROg4SL2dQ/2wRTDV3KZUaumZPArmKVE8EX8iT69nA4\n+EkivAh63wrVOLImFXsaV0gvJT8M4xsNFmRERAo5ZRVb8eUPFSuxj/hxlmMkImmm\nMbHmglMNAgMBAAECggEAFJRcaykjXbJPAPKtRafWpcV5T/15fL9Kt/QtEjKOhwih\n+gyJswSK2L25s3kI1AW9GaHXeTCPSZf77+S07jeCp2gbNO20oCcqTc6WWwonZQ+t\nGVLEIu7kMmIGTqIdBrU2BcOMK37UR7yw+kW/lQG8XfcI2NYjhSSSDsAW/pEe4bDC\ncG/3yr79WLH03F66ueJ8NmldT0gS49/4azl8UUoivx5hvbdvVn8D3jvSstxDcDXj\nfYDvxmU8Gxm4cXI0DcFR+dgpLIJq1fnht3lcIGyg5osYQL8X0Yktt4rErqvwrxlB\ncDYEZ4ernD+IZC4XjVoq6XBvp7dYtzkjg+7k2npuewKBgQDx0G5WsvlxLzlTMMLg\n7UimJf5REdj/VOzLrhO6x1F9VdBJ0Gr3chswfAUKWvyrI+fYkG0M0zIsAt/2KXLp\nBaqcnrCeOJD0wUUFRLnhEJlqD4U/U2HzKF6CLElv8pkbp1NWyHvcgAJKT+s0WyZ1\nV//wKDPOmYMGlmZH+/PqANwVYwKBgQC2XfSSBr0HANUaosvNNDa0qraP+2X3+sNM\nuwjCXeq04d0gMUKf8zr1W5L7Y1W6kuHCShq6VEExNmr1ng+uWEpscw5Nu4p5JJBS\ngGV1qdccdcf9cMKBLGfrYt0zZbVwabMgiiKLo8DzwWrywCMfKxWNB6xEhQq7Vuxi\nXqYwWfFYzwKBgFp/hfveiWopoUuYESb6xtifmXkfs9WDJAfqQyoA1GeSyRwG6zFm\nO/S+RWilurAWBPvQuW82Ty2Xedf3lTDOVRa+cR0V0HI5LqqVGPe5LaE648RaYWsO\nLaiMCIPkCBcIXTE6YNiZ88F5/W2fu1npMDjh4tmsLBQ4D1lbWuK1pag/AoGBAJ5W\nuXDIVPttp5m224jR2uXGizg8KO7EVSmcAyDvdkeTC/FVk+lYwEokNlv6hYa23Tla\nKha57NiTzQ5xLGBN3GCJDVREjxhbvMtFG9Krok/dm8TbUKXjLl9buX9UwdJWk+ae\nyRvBFFkQCJG4bUY0nEOU8+eSNB0wfZFzaIv2q+xVAoGBAOY/xXsidZs5AfVFW1Cl\nG9Pj+d3lJT69CdAU4T6EnOi6Xb5CA55lfp4PTJwwttdl1Eszum//X4I0soJCVuGP\nB1LFQ4Xcm7diA3lj+i+5Tsr1sN4IedSBqUn/IQhDj2Vo0g/bgVGYv7vSzElnlEj7\nLTEyNiAj42ZNDjvH37BG6y/f\n-----END PRIVATE KEY-----\n",
+  "client_email": "argocd-deployment@argocd-deployment.iam.gserviceaccount.com",
+  "client_id": "118301804535490258575",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/argocd-deployment%40argocd-deployment.iam.gserviceaccount.com"
+}

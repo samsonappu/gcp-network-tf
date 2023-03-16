@@ -1,9 +1,9 @@
 provider "google" {
-    credentials = var.gcp-creds
-    project  = "cloud-automation"
+    credentials = var.gcp_creds
+    project  = "argocd-deployment"
     region = "us-west2"
 }
 
-variable "gcp-creds" {
+variable "gcp_creds" {
 default= ""
 }
